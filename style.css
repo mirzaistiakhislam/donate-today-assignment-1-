@@ -7,22 +7,30 @@ body {
 }
 
 .top-banner {
-    background-image: url(images/blurred-background.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     height: 609px;
     position: relative;
+
 
 }
 
 .font-center {
     width: 60%;
     height: 400px;
-
     position: absolute;
     margin-left: 250px;
     margin-top: 10%;
+}
+
+#first-section-header {
+    color: white;
+}
+
+#first-section-paragraph {
+    color: rgb(226, 223, 223);
 }
 
 h1 {
@@ -52,9 +60,10 @@ p {
     margin-top: 100px;
 }
 
-.amount {
-    display: flex;
+#top-center {
+    color: gray;
 }
+
 
 .box {
     width: 60%;
@@ -146,7 +155,7 @@ hr {
     width: 25%;
     height: 300px;
 
-    margin-left: 3.5%;
+    margin-left: 9%;
     padding: 20px 20px;
     margin-top: 2%;
     background-color: rgb(213, 247, 235);
@@ -313,4 +322,20 @@ form {
     margin-left: 25%;
     margin-top: 60px;
     border-radius: 5px;
+}
+
+footer {
+
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.footer-header {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    color: azure;
+    padding-top: 30px;
 }
